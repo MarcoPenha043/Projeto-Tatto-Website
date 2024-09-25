@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2Ink</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+
+</head>
+<body>
+    <header class="fixed-top" id="cabecalho"> <!--navbar-->
+        <div class="navbar navbar-expand-lg navbarclass">
+            <div class="container ">
+            <h1>2INK</h1>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tatuadores">Tatuadores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            <button id="btn-checar-notificacoes" type="button" class="btn ">
+                <img src="./Image/taco-bell.png" alt="chat" style="width: 30px; height: 30px;" srcset="">
+            </button>
+            <button id="btn-checar-chat" type="button" class="btn ">
+                <img src="./Image/chat.png" alt="notification" style="width: 30px; height: 30px;">
+            </button>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <div class="container py-5" data-aos="fade-up">
+            <section id="inicio">
+                <h2 class="text-center mb-4 tittlesection" style="font-weight: 500;" data-aos="fade-down">Ínicio</h2>
+                <div class="row d-flex align-items-center justify-content-between">
+                    <div class="col-md-6" data-aos="flip-left" data-aos-duration="1000">
+                        <div id="carousel-exemplo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div data-bs-interval="3000" class="carousel-item active">
+                                    <img class="d-block w-100 img-fluid" style="width: 300px; height: 520px; object-fit: cover;" src="./Image/carousel1.jpeg" alt="Tatuador tatuando">
+                                    <div class="carousel-caption">
+                                        <h2>Tatuador(a)#1</h2>
+                                    </div>
+                                </div>
+                                <div data-bs-interval="3000" class="carousel-item">
+                                    <img class="d-block w-100 img-fluid" style="width: 300px; height: 520px; object-fit: cover;" src="./Image/carousel2.jpg" alt="Tatuador tatuando">
+                                    <div class="carousel-caption text-dark">
+                                        <h2>Tatuador(a)#2</h2>
+                                    </div>
+                                </div>
+                                <div data-bs-interval="3000" class="carousel-item">
+                                    <img class="d-block w-100 img-fluid" style="width: 300px; height: 520px; object-fit: cover;" src="./Image/carousel3.jpg" alt="Tatuador tatuando">
+                                    <div class="carousel-caption ">
+                                        <h2>Tatuador(a)#3</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-exemplo" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel-exemplo" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Próximo</span>
+                            </button>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-aos="flip-down" data-aos-duration="1000">
+                        <h3>Sobre o 2INK</h3>
+                        <p style="font-size: 24px; font-weight: 400;">
+                            &emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis assumenda vero, accusamus illo reiciendis fuga dolorum, laudantium aliquam qui harum corporis totam cupiditate neque nostrum inventore voluptates? Officia, explicabo eveniet.
+                        </p>
+                        <p style="font-size: 24px; font-weight: 400;">
+                            &emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita minima, quo quasi nihil rerum, repudiandae ratione magnam quod deserunt quos odio, nobis harum ducimus quia dolorem adipisci necessitatibus commodi est?
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container py-5">
+            <section id="tatuadores">
+                <h2 class="text-center mb-4 tittlesection" style="font-weight: 500;">Tatuadores</h2>
+                <div class="row flex-row">
+                    <div class="col-lg-4 col-md-6 col-xs-12 mt-4" data-aos="fade-up">
+                        <article class="card bg-dark text-white h-100">
+                            <header class="card-header text-center">
+                                <h5 class="m-0">Tatuador(a)</h5>
+                            </header>
+                            <img src="./Image/card1.jpeg" alt="tatuador1" class="card-img-top">
+                            <div class="card-body">
+                                <h4 class="card-title">Tatuagens coloridas e sólidas</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae deleniti eum ducimus expedita autem maiores architecto eaque debitis, explicabo praesentium ipsam, nemo dicta modi ex saepe, recusandae quidem nam similique!</p>
+                                <a href="#" class="btn btn-primary">To ink</a>
+                            </div>
+                            <footer class="card-footer ">
+                                Londrina, PR - a 5km de você
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12 mt-4" data-aos="fade-up">
+                        <article class="card bg-dark text-white h-100">
+                            <header class="card-header text-center">
+                                <h5 class="m-0">Tatuador(a)</h5>
+                            </header>
+                            <img src="./Image/card2.jpeg" alt="tatuador2" class="card-img-top">
+                            <div class="card-body">
+                                <h4 class="card-title">Black work e realismo</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sed doloribus modi magnam iusto cum nemo pariatur distinctio ex excepturi autem voluptatem, vel iure quibusdam nulla delectus facere corrupti explicabo?</p>
+                                <a href="#" class="btn btn-primary">To ink</a>
+                            </div>
+                            <footer class="card-footer">
+                                Maringá, PR - a 112km de você
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12 mt-4" data-aos="fade-up">
+                        <article class="card bg-dark text-white h-100">
+                            <header class="card-header text-center">
+                                <h5 class="m-0">Tatuador(a)</h5>
+                            </header>
+                            <img src="./Image/card3.jpg" alt="tatuador3" class="card-img-top">
+                            <div class="card-body">
+                                <h4 class="card-title">Floral fine work e pontilhismo</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ipsum excepturi voluptatem commodi nulla reiciendis tempore pariatur accusamus perspiciatis, labore magnam sint cupiditate quas exercitationem. Ad commodi sapiente nam mollitia.</p>
+                                <a href="#" class="btn btn-primary">To ink</a>
+                            </div>
+                            <footer class="card-footer ">
+                                São Paulo, SP - a 536km de você
+                            </footer>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container" data-aos="fade-up">
+            <section id="contato">
+                <h2 class="tittlesection" data-aos="fade-down" >Contato</h2>
+                <div class="row">
+                    <div class="col-lg-4 marginfinal" data-aos="fade-right">
+                        <h3>Fale conosco</h3>
+                        <form action="">
+                            <div class="form-group mb-3">
+                                <input type="text" class="form-control" placeholder="Seu nome" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="email" class="form-control" placeholder="Seu e-mail" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="tel" class="form-control" placeholder="Seu telefone (opcional)">
+                            </div>
+                            <div class="form-group mb-3">
+                                <textarea name="Sua mensagem" class="form-control" placeholder="Sua mensagem" id="textarea-form" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 marginfinal" data-aos="fade-up">
+                        <h3 class="mb-4">Nos acompanhe</h3>
+                        <ul class="social-links list-unstyled d-flex justify-content-center">
+                            <li class="m-3">
+                                <a href="#" title="Siga-nos no Instagram">
+                                    <img src="./Image/instagram.png" alt="Logo do Instagram" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="m-3">
+                                <a href="#" title="Siga-nos no Facebook">
+                                    <img src="./Image/facebook.png" alt="Logo do Facebook" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="m-3">
+                                <a href="#" title="Siga-nos no Youtube">
+                                    <img src="./Image/youtube.png" alt="Logo do Youtube" class="img-fluid">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 marginfinal" data-aos="fade-left">
+                        <h3>Venha até nós</h3>
+                        <p id="venhaatep">Rua Java, n°123, Vila CSS - Londrina - PR</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>                   
+    
+    <!-- Toast -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div data-bs-autohide="false" class="toast" id="mensagens-notificacao">
+            <header class="toast-header">
+                <strong>Importante</strong>
+            </header>
+            <div class="toast-body">
+                Seu orçamento foi feito pelo "x" tatuador!
+                <div class="mt-2 pt-2 border-top">
+                    <button data-bs-dismiss="toast" class="btn btn-danger">Descartar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div data-bs-autohide="false" class="toast" id="mensagens-chat">
+            <header class="toast-header">
+                <strong>Importante</strong>
+            </header>
+            <div class="toast-body">
+                Você possui 10 mensagens não lidas
+                <div class="mt-2 pt-2 border-top">
+                    <button data-bs-dismiss="toast" class="btn btn-danger">Descartar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 2INK. Todos os direitos reservados.</p>
+            <a href="#contato" class="text-white">Contato</a> | 
+            <a href="#inicio" class="text-white">Sobre Nós</a>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const ativadorToast = document.getElementById('btn-checar-notificacoes');
+        const mensagem = document.getElementById('mensagens-notificacao');
+        if(ativadorToast){
+            ativadorToast.addEventListener('click', function(){
+                const toast = new bootstrap.Toast(mensagem);
+                toast.show();
+            })
+        }
+
+        const ativadorToast2 = document.getElementById('btn-checar-chat');
+        const mensagem2 = document.getElementById('mensagens-chat');
+        if(ativadorToast2){
+            ativadorToast2.addEventListener('click', function(){
+                const toast2 = new bootstrap.Toast(mensagem2);
+                toast2.show();
+            })
+        }
+    </script>
+    <script>
+    AOS.init({
+        duration: 1000,
+        once: false     
+    });
+    </script>
+</body>
+</html>

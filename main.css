@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*background-color: #7e22ce;*/
+    background: rgb(126,34,206);
+    background: linear-gradient(135deg, rgba(126,34,206,1) 50%, rgba(109,40,217,1) 67%, rgba(67,56,202,1) 100%);
+    overflow-x: hidden;
+    
+}
+
+.container{
+    width: 100%;
+    
+}
+
+
+
+.navbar-nav .nav-link.active{
+    color: #ffff;
+}
+
+.nav-link{
+    text-align: center;
+}
+
+section{
+    min-height: 100vh;
+    /*background-color: #7e22ce;*/
+    padding-top: 130px;
+    color: #FAF9F6;
+    text-align: center;
+}
+
+section h2 {
+    color: #FAF9F6;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 52px;
+    
+}
+
+.tittlesection{
+    border-bottom: 4px solid #000000
+}
+
+.col-md-6 h3{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-size: 52px;
+}
+
+.col-md-6 h3{
+    margin-top: 12px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    color: #FAF9F6;
+    padding: 0px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+background-color: #7e22ce;
+}
+
+.container h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bolder;
+    font-size: 88px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+    text-decoration-color: #7e22ce;
+}
+
+.nav-link{
+    color: #FAF9F6;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+.carousel-caption h2{
+    font-size: 28px;
+}
+
+.card{
+    color: #FAF9F6;
+
+}
+.card header{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+
+.btn-primary{
+    --bs-btn-hover-bg: #8832d3;
+    --bs-btn-active-bg: #7e22ce;
+    --bs-btn-active-border-color: #7e22ce;
+    --bs-btn-disabled-bg: #7e22ce;
+    --bs-btn-disabled-border-color: #7e22ce;
+    --bs-btn-hover-border-color:#7e22ce;
+}
+
+.toink{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+    background-color: #7e22ce;
+    border: none;
+    display: flex;
+    justify-content: center;    
+}
+
+.card-body a{
+    font-size: 28px;
+}
+.card-body p{
+    font-weight: 450;
+}
+
+.card-title{
+    font-weight: 700;
+}
+
+.navbar-toggler.custom-toggler .navbar-toggler-icon {
+    background-color: #000000;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(126, 34, 206, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.card-header h5{
+    font-family: "Roboto", sans-serif;
+}
+.card-body h4{
+    font-family: "Roboto", sans-serif;
+}
+
+.card-body p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.card-body a{
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+    padding: 0 0 0 0;
+}
+
+.card {
+    min-height: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao card */
+}
+
+.card-img-top {
+    height: 350px; 
+    object-fit: cover; 
+}
+
+
+.card-footer{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.carousel-item {
+    transition: transform 0.5s ease, opacity 0.5s ease; 
+    opacity: 0;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item-next,
+.carousel-item-prev {
+    transform: scale(1.02); 
+}
+
+.carousel-caption h2 {
+    animation: fadeInUp 1s ease;
+    font-size: 2rem;
+}
+
+.row{
+    display: flex;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+form{
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: px;
+} 
+
+.col-lg-4 h3{
+    margin-top: 28px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+input{
+    font-family: "Roboto", sans-serif;
+}
+
+textarea{
+    resize: none;
+    height: 200px;
+    font-family: "Roboto", sans-serif;
+}
+
+.form-group button{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    justify-content: center;
+    padding: 0 0 0 0;
+}
+
+
+.social-links li a img{
+    max-width: 80px;
+}
+
+#venhaatep{
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.marginfinal{
+    margin-bottom: 62px;
+}
+
+@media (max-width: 786px){
+    body, html {
+    overflow-x: hidden!important;
+    }
+    }
